@@ -64,9 +64,9 @@ const App = () => {
 
             {/* <Button/> */}
 
-            {/* <Netlify/> */}
+            <Netlify/>
 
-            <Startup/>
+            {/* <Startup/> */}
 
             
         </div>   

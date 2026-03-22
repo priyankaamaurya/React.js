@@ -15,7 +15,7 @@ const Startup = () => {
         </ul>
       </nav>
 
-      {/* Hero Content */}
+      {/* Hero Content */}  
       <div className="hero-content">
         <p className="sub-title">Startup 3</p>
         <h3>Forget About Code</h3>
