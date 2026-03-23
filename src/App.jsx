@@ -20,6 +20,7 @@ import ExternalCSS from "./Day 8/CSS/ExternalCSS"
 import Button from "./Day 8/CSS/moduleCSS/Button"
 import Netlify from "./Day 8/Task/netlify"
 import Startup from "./Day 8/Task/Startup"
+import John from "./Day 9/Task/John"
 
 const App = () => {
 
@@ -64,10 +65,11 @@ const App = () => {
 
             {/* <Button/> */}
 
-            <Netlify/>
+            {/* <Netlify/> */}
 
             {/* <Startup/> */}
 
+            <John/>
             
         </div>   
     )
