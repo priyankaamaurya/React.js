@@ -31,7 +31,7 @@ const FetchData = () => {
                         <h3> Price : {price} </h3>
                         <h3> Description : {description} </h3>
                         <h3> Category : {category} </h3>
-                        <h3> Image : {<img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png"/> } </h3>
+                        <h3> Image : {<img src={image}/> } </h3>
                     </div>
                 )
             })

@@ -14,13 +14,14 @@ import FetchData from "./Day 7/Task1/FetchData"
 import ConditionalRendering1 from "./Day 7/conditionalRendering/ConditionalRendering1"
 import ConditionalRendering2 from "./Day 7/conditionalRendering/ConditionalRendering2"
 import ConditionalRendering3 from "./Day 7/conditionalRendering/ConditionalRendering3"
-import InlineCSS from "./Day 8/CSS/InlineCSS"
-import InternalCSS from "./Day 8/CSS/InternalCSS"
-import ExternalCSS from "./Day 8/CSS/ExternalCSS"
-import Button from "./Day 8/CSS/moduleCSS/Button"
-import Netlify from "./Day 8/Task/netlify"
-import Startup from "./Day 8/Task/Startup"
-import John from "./Day 9/Task/John"
+// import InlineCSS from "./Day 8/CSS/InlineCSS"
+// import InternalCSS from "./Day 8/CSS/InternalCSS"
+// import ExternalCSS from "./Day 8/CSS/ExternalCSS"
+// import Button from "./Day 8/CSS/moduleCSS/Button"
+// import Netlify from "./Day 8/Task/netlify"
+// import Startup from "./Day 8/Task/Startup"
+// import John from "./Day 9/Task/John"
+import TaskFbc from "./Day 10/Mock/TaskFbc"
 
 const App = () => {
 
@@ -69,7 +70,9 @@ const App = () => {
 
             {/* <Startup/> */}
 
-            <John/>
+            {/* <John/> */}
+
+            {/* <TaskFbc/> */}
             
         </div>   
     )
