@@ -3,7 +3,7 @@ import LifeCycleInCbc from "./Day 5/lifeCycle/LifeCycleInCbc"
 import LifeCycleInFbc from "./Day 5/lifeCycle/LifeCycleInFbc"
 import Child from "./Day 1/Props/Child"
 import Parent from "./Day 1/Props/Parent"
-import GrandParent from "./Day 2/propsDrilling/propsDrilling/GrandParent"
+// import GrandParent from "./Day 2/propsDrilling/propsDrilling/GrandParent"
 import PropsAss from "./Day 2/propsDrilling/propsAssesment/PropsAss"
 import StateInFbc from "./Day 3/state/StateInFbc"
 import Cbc from "./Day 4/Component/Cbc"
@@ -22,6 +22,11 @@ import ConditionalRendering3 from "./Day 7/conditionalRendering/ConditionalRende
 // import Startup from "./Day 8/Task/Startup"
 // import John from "./Day 9/Task/John"
 import TaskFbc from "./Day 10/Mock/TaskFbc"
+import DefaultPropsParent from "./Day 11/defaultProps/DefaultPropsParent"
+import ContextParent from "./Day 11/contextApi1/ContextParent"
+import ContextApiParent from "./Day 11/contextApi2/ContextApiParent"
+import Component1 from "./Day 11/Task/Component1"
+import GrandParent from "./Day 11/contextApi3/GrandParent"
 
 const App = () => {
 
@@ -73,6 +78,16 @@ const App = () => {
             {/* <John/> */}
 
             {/* <TaskFbc/> */}
+
+            {/* <DefaultPropsParent/> */}
+
+            {/* <ContextParent/> */}
+
+            {/* <ContextApiParent/> */}
+
+            {/* <Component1/> */}
+
+            <GrandParent/>
             
         </div>   
     )
