@@ -85,9 +85,9 @@ const App = () => {
 
             {/* <ContextApiParent/> */}
 
-            {/* <Component1/> */}
+            <Component1/>
 
-            <GrandParent/>
+            {/* <GrandParent/> */}
             
         </div>   
     )

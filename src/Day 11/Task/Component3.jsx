@@ -7,7 +7,7 @@ const Component3 = () => {
 
   return (
     <div>
-        <h1> Component 3: {data} </h1>
+        <h1> Component 3 : {data} </h1>
         
     </div>
   )
