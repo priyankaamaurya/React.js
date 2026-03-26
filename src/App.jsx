@@ -27,6 +27,9 @@ import ContextParent from "./Day 11/contextApi1/ContextParent"
 import ContextApiParent from "./Day 11/contextApi2/ContextApiParent"
 import Component1 from "./Day 11/Task/Component1"
 import GrandParent from "./Day 11/contextApi3/GrandParent"
+import Controlled from "./Day 12/form/Controlled"
+import UnControlled from "./Day 12/form/UnControlled"
+import ReactMemoParent from "./Day 12/memoization/ReactMemo/ReactMemoParent"
 
 const App = () => {
 
@@ -85,9 +88,15 @@ const App = () => {
 
             {/* <ContextApiParent/> */}
 
-            <Component1/>
+            {/* <Component1/> */}
 
             {/* <GrandParent/> */}
+        
+            {/* <Controlled/> */}
+
+            {/* <UnControlled/> */}
+
+            <ReactMemoParent/>
             
         </div>   
     )
