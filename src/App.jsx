@@ -30,6 +30,8 @@ import GrandParent from "./Day 11/contextApi3/GrandParent"
 import Controlled from "./Day 12/form/Controlled"
 import UnControlled from "./Day 12/form/UnControlled"
 import ReactMemoParent from "./Day 12/memoization/ReactMemo/ReactMemoParent"
+import UseMemoParent from "./Day 12/memoization/useMemo/UseMemoParent"
+import UseCallbackParent from "./Day 12/memoization/useCallback/UseCallbackParent"
 
 const App = () => {
 
@@ -96,7 +98,11 @@ const App = () => {
 
             {/* <UnControlled/> */}
 
-            <ReactMemoParent/>
+            {/* <ReactMemoParent/> */}
+
+            {/* <UseMemoParent/> */}
+
+            <UseCallbackParent/>
             
         </div>   
     )
