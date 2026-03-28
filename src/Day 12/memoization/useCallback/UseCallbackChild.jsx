@@ -2,6 +2,7 @@ import React from 'react'
 
 const UseCallbackChild = () => {
      console.log("Component callback")
+     console.log("Here we are using useCallback")
 
   return (
     <div>
