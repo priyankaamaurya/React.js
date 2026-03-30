@@ -10,6 +10,7 @@ const UseCallbackParent = () => {
 
     let expensiveFn = useCallback(function(){
         console.log("Function is Called")
+        console.log("Here we are using useCallback")
     },[])
 
   return (
