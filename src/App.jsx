@@ -32,6 +32,9 @@ import UnControlled from "./Day 12/form/UnControlled"
 import ReactMemoParent from "./Day 12/memoization/ReactMemo/ReactMemoParent"
 import UseMemoParent from "./Day 12/memoization/useMemo/UseMemoParent"
 import UseCallbackParent from "./Day 12/memoization/useCallback/UseCallbackParent"
+import UseReducer2 from "./Day 13/reducer/UseReducer2"
+import UseReducer3 from "./Day 13/reducer/UseReducer3"
+import UseReducer from "./Day 13/reducer/UseReducer"
 
 const App = () => {
 
@@ -102,7 +105,13 @@ const App = () => {
 
             {/* <UseMemoParent/> */}
 
-            <UseCallbackParent/>
+            {/* <UseCallbackParent/> */}
+
+            {/* <UseReducer2/> */}
+
+            {/* <UseReducer3/> */} 
+
+            <UseReducer/>
             
         </div>   
     )
