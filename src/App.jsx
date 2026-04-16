@@ -35,6 +35,7 @@ import UseCallbackParent from "./Day 12/memoization/useCallback/UseCallbackParen
 import UseReducer2 from "./Day 13/reducer/UseReducer2"
 import UseReducer3 from "./Day 13/reducer/UseReducer3"
 import UseReducer from "./Day 13/reducer/UseReducer"
+import Layout from "./Day 14/useLayoutEffect/Layout"
 
 const App = () => {
 
@@ -111,7 +112,9 @@ const App = () => {
 
             {/* <UseReducer3/> */} 
 
-            <UseReducer/>
+            {/* <UseReducer/> */}
+
+            <Layout/>
             
         </div>   
     )
